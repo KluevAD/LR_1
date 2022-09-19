@@ -45,3 +45,5 @@
 *.map
 *.tds
 *.~5~
+*.astinfo
+*.astcache
