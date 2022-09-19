@@ -25,10 +25,9 @@ using namespace std;
 	cout << "\n\n";
 
 	//Вторая DLL
-	wchar_t * str = new wchar_t [25];
-	str = ConsoleOut();
+	wchar_t * str = ConsoleOut();
 	cout << "Вывод ФИО: \nПервая функция: вывод ФИО в консоль: ";
-	cout << OutConsole();
+	wcout << str;
 	cout << "\n";
 	cout << "Вторая функция: вывод ФИО из переменной в программе: ";
 	const char * string = Out();
