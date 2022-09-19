@@ -1,4 +1,7 @@
-#ifdef _WIN32
-#include <tchar.h>
-#endif
+#pragma once
+extern "C"
+{
+	__declspec(dllexport) int __stdcall OutGroupInt(int a);
+	__declspec(dllexport) void __stdcall OutGroupChar();
+}
 
