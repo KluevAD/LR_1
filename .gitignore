@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,7 +23,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -38,3 +36,12 @@
 *.~4~
 *.ini
 *.#00
+*.res
+*.stat
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.map
+*.tds
+*.~5~
