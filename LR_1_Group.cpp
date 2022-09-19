@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "LR_1.h"
+#include "LR_1_Group.h"
 #include "iostream"
 
 int __stdcall OutGroupInt(int a)
