@@ -25,7 +25,7 @@
 *.a
 
 # Executables
-*.exe
+
 *.out
 *.app
 *.local
