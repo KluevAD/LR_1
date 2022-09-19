@@ -75,3 +75,5 @@ VS_ConsoleApp/LR_1_Console/.vs/LR_1_Console/v17/.suo
 *.rar
 VS_ConsoleApp/LR_1_Name/.vs/LR_1_Name/v17/.suo
 *.docx
+*.gitignore
+*.gitattributes
