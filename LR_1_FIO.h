@@ -2,6 +2,6 @@
 extern "C"
 {
 	__declspec(dllexport) const char * __stdcall Out();
-	__declspec(dllexport) void __stdcall OutConsole();
+	__declspec(dllexport) wchar_t *  __stdcall ConsoleOut();
 }
 

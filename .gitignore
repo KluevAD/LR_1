@@ -47,3 +47,5 @@
 *.~5~
 *.astinfo
 *.astcache
+*.cpp
+*.~6~

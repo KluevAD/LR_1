@@ -16,7 +16,7 @@ using namespace std;
 
  int _tmain(int argc, _TCHAR* argv[])
 {
-	setlocale(LC_ALL,"RUS");
+	setlocale(LC_ALL,"Russian");
 
 	//Первая DLL
 	cout << "Вывод группы: \nПервая функция: вывод номера группы в формате int: " << OutGroupInt(571227) << "\n";
@@ -25,7 +25,7 @@ using namespace std;
 	cout << "\n\n";
 
 	//Вторая DLL
-	wchar_t * str;
+	wchar_t * str = new wchar_t [25];
 	str = ConsoleOut();
 	cout << "Вывод ФИО: \nПервая функция: вывод ФИО в консоль: ";
 	cout << OutConsole();
@@ -34,6 +34,6 @@ using namespace std;
 	const char * string = Out();
 	cout << string;
 	cout << "\n";
-
+	system("pause");
 	return 0;
 }
