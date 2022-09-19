@@ -12,7 +12,7 @@ const char * __stdcall Out()
 	return a;
 }
 
-void __stdcall wchar_t* myName(){
+void __stdcall wchar_t* ConsoleOut(){
 		wchar_t *name = new wchar_t [25];
 		wcscpy(name,L"Клюев Андрей Дмитриевич");
 		return name;
